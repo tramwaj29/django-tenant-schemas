@@ -87,7 +87,7 @@ def get_git_version():
     # If we still don't have anything, that's an error.
 
     if version is None:
-        raise ValueError("Cannot find the version number!")
+        version = 'v1.5.2-18-g9e4ed33'
 
     # If the current version is different from what's in the
     # VERSION file, update the file to be current.
